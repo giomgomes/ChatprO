@@ -78,12 +78,3 @@ async def main():
 # Executa o bot
 if __name__ == '__main__':
     asyncio.run(main())
-
-
-# acho q precisa disso aqui dps eu vejo
-"""
-assistant.delete_session(
-    assistant_id=assistant_id,
-    session_id=session_id
-).get_result()
-"""
